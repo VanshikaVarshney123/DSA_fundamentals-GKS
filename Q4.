@@ -1,0 +1,14 @@
+// print n to 1 without loop
+class Solution {
+  public:
+    void printNos(int n) {
+        // base condition
+        if(n == 0){
+            return;
+        }
+        // recursive call
+        cout<<n<<" ";
+        return printNos(n-1);
+        
+    }
+};
